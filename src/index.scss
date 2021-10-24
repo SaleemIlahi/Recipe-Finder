@@ -13,5 +13,54 @@ body{
   font-family: 'Exo 2', sans-serif;
 }
 
-$primary-color: #0C1248;
-$white-color: #ffff;
+$primary-color: #2C3B8D;
+$secondary-color: #04A3E5;
+$white-color: #ffffff;
+
+.container{
+  text-align: center;
+
+  img{
+    width: 400px;
+    margin: 50px 0 30px;
+  }
+
+  .border{
+    font-weight: 600;
+    border-radius: 25px;
+    font-size: 1rem;
+  }
+
+  @mixin style($width,$border,$color,$bgColor){
+    width: $width;
+    border: $border;
+    color: $color;
+    background: $bgColor;
+  }
+
+  .search-box{
+    width: 800px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+      input{
+        flex-basis: 70%;
+        padding: 0 15px;
+        @include style(100%,2px solid $primary-color,$primary-color,transparent);
+        @extend .border;
+
+          &:focus{
+            outline: none;
+          }
+      }
+
+      button{
+        width: 20%;
+        cursor: pointer;
+        @include style(20%,none,$white-color,linear-gradient(to right,$primary-color,$secondary-color));
+        @extend .border;
+      }
+  }
+}
