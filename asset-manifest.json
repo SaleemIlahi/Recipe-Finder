@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Recipe-Finder/static/css/main.d19909d3.chunk.css",
+    "main.js": "/Recipe-Finder/static/js/main.359b830e.chunk.js",
+    "main.js.map": "/Recipe-Finder/static/js/main.359b830e.chunk.js.map",
+    "runtime-main.js": "/Recipe-Finder/static/js/runtime-main.72f0d865.js",
+    "runtime-main.js.map": "/Recipe-Finder/static/js/runtime-main.72f0d865.js.map",
+    "static/js/2.30ca57bf.chunk.js": "/Recipe-Finder/static/js/2.30ca57bf.chunk.js",
+    "static/js/2.30ca57bf.chunk.js.map": "/Recipe-Finder/static/js/2.30ca57bf.chunk.js.map",
+    "static/js/3.eab7036b.chunk.js": "/Recipe-Finder/static/js/3.eab7036b.chunk.js",
+    "static/js/3.eab7036b.chunk.js.map": "/Recipe-Finder/static/js/3.eab7036b.chunk.js.map",
+    "index.html": "/Recipe-Finder/index.html",
+    "static/css/main.d19909d3.chunk.css.map": "/Recipe-Finder/static/css/main.d19909d3.chunk.css.map",
+    "static/js/2.30ca57bf.chunk.js.LICENSE.txt": "/Recipe-Finder/static/js/2.30ca57bf.chunk.js.LICENSE.txt",
+    "static/media/logo.637d1a73.svg": "/Recipe-Finder/static/media/logo.637d1a73.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72f0d865.js",
+    "static/js/2.30ca57bf.chunk.js",
+    "static/css/main.d19909d3.chunk.css",
+    "static/js/main.359b830e.chunk.js"
+  ]
+}
